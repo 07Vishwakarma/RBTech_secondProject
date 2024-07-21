@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 30vh;
+    border: 2px solid black;
+}
+.header .logo{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.header .logo .logoimg{
+    max-height: 60px;
+    border: 2px solid black;
+}
+.header .logo .logoimg img{
+    height: 100%;
+}
+.logo .logoimg img {
+    max-height: 60px;  
+  }
+  
+  .logo .socialIcons a{
+    font-size: 22px;
+    /* border: 2px solid black; */
+  }
+  
+  .logo .socialIcons{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 35px;
+  }
+  .logo .option_signup{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .logo .option_signup .signup{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+  } 
+  .logo .option_signup .livetv,.signup{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 40px;
+  } 
+  .logo .option_signup .signup button{
+    border: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+    background: transparent;
+  }
+  .logo .option_signup .livetv button{
+    border: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: transparent;
+  }
+  
